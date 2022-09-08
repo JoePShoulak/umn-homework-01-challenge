@@ -1,4 +1,4 @@
-/* Global */
+/* == Global == */
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-/* Tags */
+/* == Tags == */
 
 body {
     background-color: #d9dcd6;
@@ -20,6 +20,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* Header */
 
 header {
     padding: 20px;
@@ -54,13 +56,25 @@ header nav ul li {
     margin-left: 25px;
 }
 
-section {
+/* Figure */
+
+figure { /* figures are configured as splash images */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main */
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section article {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -69,24 +83,16 @@ section article {
     color: #ffffff;
 }
 
-section article img {
+main article img {
     max-height: 200px;
 }
 
-section article h2 {
+main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-section article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-section article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Aside */
 
 aside {
     margin-right: 20px;
@@ -115,6 +121,8 @@ aside article img {
     max-width: 150px;
 }
 
+/* Footer */
+
 footer {
     padding: 30px;
     clear: both;
@@ -126,7 +134,7 @@ footer h2 {
     font-size: 20px;
 }
 
-/* Classes */
+/* == Classes == */
 
 .float-left {
     float: left;
@@ -138,13 +146,8 @@ footer h2 {
     margin-left: 25px;
 }
 
-/* Elements */
+/* == Elements == */
 
-#splash-image {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
+#heros {
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
