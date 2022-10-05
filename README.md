@@ -1,4 +1,4 @@
-# HTML CSS Git Challenge: Code Refactor
+# un-div-soup-ify
 
 ## umn-homework-01-challenge
 The first homework assignment from the UMN coding bootcamp  
